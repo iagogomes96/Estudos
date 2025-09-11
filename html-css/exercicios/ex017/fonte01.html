@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Define a fonte padrão para o corpo do documento. Ele não usa as 3, ele tenta uma por vez, de acordo com o que o navegador tiver */
+            /*É possível colocar fontes genéricas. Basta colocar os tipos de fonte, como: serif, sans-serif, monospace, cursive, fantasy, etc*/
+            font-size: 1em;
+            /*
+                Medidas Absolutas: px, cm, mm, in, pt, pc
+                Medidas Relativas: em, rem, %, vw, vh
+            */
+            font-weight: normal;
+            /*
+                Pesos literais: lighter, normal, bold, bolder
+                Pesos numéricos: 100, 200, 300, 400, 500, 600, 700, 800, 900
+            */
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+            font: italic bolder 3em 'Work Sans', Arial, Helvetica, sans-serif;
+            /*shorthand font
+                - font-style -> font-weight -> font-size -> font-family;
+            */
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est nostrum consequuntur dolore voluptate esse rem
+        neque voluptatibus! Aperiam mollitia voluptatibus, esse ducimus est voluptas, eum accusamus quia delectus ipsum
+        quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequatur tenetur odit iure
+        cumque quaerat quisquam voluptates, nulla voluptas ex, illum, esse est delectus assumenda velit nihil dolorem
+        blanditiis ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolor deleniti excepturi
+        perspiciatis porro consequatur illo cum commodi illum, dolorum exercitationem dolores! Consequatur fuga
+        aspernatur debitis voluptates beatae accusamus. Ipsum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam dignissimos, corrupti sapiente necessitatibus
+        itaque aspernatur, ad dolorem accusamus error dolor assumenda! Ipsam, facere. Quia dolores hic ratione soluta,
+        asperiores saepe? lorem</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia inventore porro, odit consectetur iure officia
+        maxime dolorem minus commodi sunt eum eveniet voluptas ex delectus! Minus beatae aspernatur ullam fuga. Lorem
+        ipsum dolor, sit amet consectetur adipisicing elit. Cumque, explicabo exercitationem, optio eligendi corporis,
+        molestias non rem omnis excepturi voluptate minus odit molestiae vel repellat provident odio esse unde dolores?
+    </p>
+</body>
+
+</html>
