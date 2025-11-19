@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0F4C81;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.336);
+        }
+
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            background-color: whitesmoke;
+            margin: 10px 5px;
+            border-radius: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        article {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        aside {
+            background-color: #f4f4f4;
+            padding: 5px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #0F4C81;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        div#bola {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Seção 1</h2>
+            <p>Este é um parágrafo dentro da seção de assuntos.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Article sobre notícias</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, reprehenderit, autem quasi ut
+                    perspiciatis consequuntur sequi repellendus voluptatibus repellat eaque alias culpa, vitae eos
+                    laborum! Veritatis perferendis aspernatur odio ipsum?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Outro Article sobre notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+            </article>
+            <article>
+                <h2>Mais um Article sobre notícias</h2>
+                <p>Cada article é uma notícia</p>
+            </article>
+            <article>
+                <div id="bola"></div>
+            </article>
+        </section>
+        <footer>
+            <p>Desenvolvido durante a aula do Curso em Vídeo</p>
+        </footer>
+</body>
+
+</html>

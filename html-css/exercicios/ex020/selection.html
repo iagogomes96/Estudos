@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Teste do ::selection</title>
+    <style>
+        /* ---- A MÁGICA ESTÁ AQUI ---- */
+        /* Isso se aplica a toda a página */
+        ::selection {
+            background-color: #F8C100;
+            /* Seu amarelo dourado para o fundo */
+            color: #0F4C81;
+            /* Seu azul para o texto */
+        }
+
+        /* Apenas para deixar o exemplo mais bonito com sua paleta */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #0F4C81;
+            /* Seu azul */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Teste o ::selection!</h1>
+
+    <p>Tente selecionar este texto com o seu mouse.</p>
+
+    <p>Em vez do azul padrão do sistema operacional (ou do navegador),
+        você verá que o fundo da seleção fica com o seu tom de amarelo
+        dourado, e o texto selecionado fica com o seu tom de azul.</p>
+
+    <p>É um detalhe de design simples que alinha até mesmo a
+        interação do usuário com a identidade visual do seu site.</p>
+
+</body>
+
+</html>
